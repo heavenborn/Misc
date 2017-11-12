@@ -41,8 +41,8 @@ def weather():
 
 with ts3.query.TS3Connection("jewishwarriorsinc.typefrag.com") as ts3conn:
     ts3conn.login(
-        client_login_name="heavenborn",
-        client_login_password="cGgR9lp3"
+        client_login_name=" ",
+        client_login_password=" "
     )
     ts3conn.use(port=5670)
     ts3conn.servernotifyregister(event='textserver')
